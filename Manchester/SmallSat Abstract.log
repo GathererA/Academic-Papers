@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  30 JAN 2019 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 FEB 2019 04:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -60,19 +60,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 17.
+(Font)              <9> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
-
-Overfull \hbox (1.66504pt too wide) in paragraph at lines 14--18
-[]\OT1/cmr/m/n/9 The com-bined op-ti-mal tra-jec-tory and time vary-ing LQR con
--trol scheme
- []
-
+(Font)              <5> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 23.
 
-Overfull \hbox (63.2924pt too wide) in paragraph at lines 22--29
+Overfull \hbox (63.2924pt too wide) in paragraph at lines 23--30
 [] 
  []
 
@@ -87,7 +81,7 @@ Here is how much of TeX's memory you used:
  4236 multiletter control sequences out of 15000+600000
  8500 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,666b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,6n,18p,799b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
@@ -96,7 +90,7 @@ c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy6.pfb>
-Output written on "SmallSat Abstract.pdf" (2 pages, 87721 bytes).
+Output written on "SmallSat Abstract.pdf" (2 pages, 89175 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream

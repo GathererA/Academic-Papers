@@ -1,13 +1,18 @@
-\documentclass{article}
+\documentclass[10pt,notitlepage,twocolumn]{article}
 
 \usepackage{gensymb}
-
+\usepackage{multicol}
 
 \begin{document}
 
 \title{Trajectory Optimization for Magnetorquer-Based Underactuated Control of Small Satellites}
-\author{Andrew Gatherer, Zac Manchester}
-\date{August 2019}
+\author{Andrew Gatherer, Zac Manchester\\
+Stanford University \\
+496 Lomita Mall, Stanford, CA 94305\\
+gatherer@stanford.edu\\
+\\
+\textbf{Faculty Advisor:} Zac Manchester\\
+Stanford University}
 \maketitle
 
 \begin{abstract}
@@ -16,19 +21,20 @@ Due to the ever-increasing scope of small satellite missions, there is now signi
 This paper presents a magnetorquer-only attitude control technique that utilizes trajectory optimization to circumvent the under-actuated nature of satellite magnetic field interactions. Given a known orbit and desired attitude state, the method utilizes a simplified dynamics model and a fast constrained trajectory optimization solver based on differential dynamic programming to arrive at a nominal torque profile that respects the spacecraft's actuator limitations and desired actuation efficiency. This nominal maneuver is then tracked online using a time-varying linear-quadratic regulator (LQR). Using realistic parameters for a 1U CubeSat in low-Earth orbit, this scheme is able to perform an arbitrary 90$\degree$ reorientation within a few minutes.
 
 To demonstrate the effectiveness and robustness of the proposed control technique, we present the results of several high-fidelity closed-loop simulations using the IGRF magnetic field model, NRLMSISE-00 atmosphere model, and solar radiation pressure effects. We also discuss the computational complexity of the method and future implementation in a CubeSat flight computer.
-
 \end{abstract}
 
-\section{Contact Information}
-\begin{tabular}{l | c | c | r}
-	\hline
-	Title & Name & Affiliation & Contact\\
-	\hline
-	Point of Contact & Zac Manchester & Stanford University & zacmanchester@stanford.edu\\
-	Presenter & Andrew Gatherer & Stanford University & gatherer@stanford.edu\\
-\end{tabular}
-	
-\section{Additional Information}
-This abstract is intended for the Advanced Technologies Session Topic. Please consider this abstract for the Pre-Conference Workshop and Poster Sessions. Additionally, this paper will also be submitted to the Student Competition. Thank you. 
+\section{Introduction}
+Talk about the historical uses and industrial ubiquity of magnetorquers....also delve into how they have evolved in concert with finer pointing methods to achieve full control on orbit. 
+
+\section{Concept Validation}
+\subsection{Scaling Study}
+
+\subsection{Power Efficiency}
+
+\subsection{Computational Requirements}  
+
+\section{
+
+\section{Conclusion}
 
 \end{document}

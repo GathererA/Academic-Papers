@@ -1,0 +1,40 @@
+\documentclass[10pt,notitlepage,twocolumn]{article}
+
+\usepackage{gensymb}
+\usepackage{multicol}
+
+\begin{document}
+
+\title{Trajectory Optimization for Magnetorquer-Based Underactuated Control of Small Satellites}
+\author{Andrew Gatherer, Zac Manchester\\
+Stanford University \\
+496 Lomita Mall, Stanford, CA 94305\\
+gatherer@stanford.edu\\
+\\
+\textbf{Faculty Advisor:} Zac Manchester\\
+Stanford University}
+\maketitle
+
+\begin{abstract}
+Due to the ever-increasing scope of small satellite missions, there is now significant demand for precise attitude determination and control capabilities onboard CubeSats. Interactions between magnetic torque coils and the Earth's magnetic field have been used for decades onboard satellites to offload momentum from reaction wheels and control-moment gyroscopes. However, magnetorquers are inherently underactuated, and mechanical actuators like reaction wheels are often prohibitively expensive in terms of mass, volume, power, and cost for CubeSat missions.
+
+This paper presents a magnetorquer-only attitude control technique that utilizes trajectory optimization to circumvent the under-actuated nature of satellite magnetic field interactions. Given a known orbit and desired attitude state, the method utilizes a simplified dynamics model and a fast constrained trajectory optimization solver based on differential dynamic programming to arrive at a nominal torque profile that respects the spacecraft's actuator limitations and desired actuation efficiency. This nominal maneuver is then tracked online using a time-varying linear-quadratic regulator (LQR). Using realistic parameters for a 1U CubeSat in low-Earth orbit, this scheme is able to perform an arbitrary 90$\degree$ reorientation within a few minutes.
+
+To demonstrate the effectiveness and robustness of the proposed control technique, we present the results of several high-fidelity closed-loop simulations using the IGRF magnetic field model, NRLMSISE-00 atmosphere model, and solar radiation pressure effects. We also discuss the computational complexity of the method and future implementation in a CubeSat flight computer.
+\end{abstract}
+
+\section{Introduction}
+Talk about the historical uses and industrial ubiquity of magnetorquers....also delve into how they have evolved in concert with finer pointing methods to achieve full control on orbit. 
+
+\section{Concept Validation}
+\subsection{Scaling Study}
+
+\subsection{Power Efficiency}
+
+\subsection{Computational Requirements}  
+
+\section{
+
+\section{Conclusion}
+
+\end{document}
